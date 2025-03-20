@@ -33,6 +33,7 @@ export default function RootLayout({
     >
       <html lang='en' suppressHydrationWarning>
         <body
+          suppressHydrationWarning
           className={cn(
             'min-h-screen font-sans antialiased',
             fontSans.variable

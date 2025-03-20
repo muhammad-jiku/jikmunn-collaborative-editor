@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Loader = () => {
   return (
-    <div className='loader'>
+    <div className='loader' suppressHydrationWarning>
       <Image
         src='/assets/icons/loader.svg'
         alt='loader'
